@@ -20,7 +20,7 @@ def mention(moyenne):
 
 
 notes = lire_notes("eleves.csv")
-moyenne = sum(notes) / 3
+moyenne = sum(notes) / len(notes)
 print(f"Moyenne : {moyenne}")
 
 with open("rapport.txt", "w", encoding="utf-8") as rapport:
