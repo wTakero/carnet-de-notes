@@ -27,3 +27,5 @@ with open("rapport.txt", "w", encoding="utf-8") as rapport:
     rapport.write(f"{len(notes)} notes, moyenne {moyenne}\n")
 
 print(f"Moyenne : {moyenne} - Mention : {mention(moyenne)}")
+
+print("DEBUG")
